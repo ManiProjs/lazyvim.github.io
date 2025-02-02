@@ -12,7 +12,14 @@ import TabItem from '@theme/TabItem';
 <Tabs>
 <TabItem value="local" label="Linux/MacOS" default>
 
-Install the [LazyVim Starter](https://github.com/LazyVim/starter)
+You can use [LazyInstaller](https://github.com/ManiProjs/lazyinstaller), a script written by [Mani Arasteh](https://github.com/ManiProjs) to install LazyVim automatically without backing up, cloning the starter template, removing .git and... manually.
+
+To use LazyInstaller just use the command below:
+```shell
+/bin/sh -c "$(curl -fsSL https://raw.githubusercontent.com/ManiProjs/lazyinstaller/refs/heads/main/install.sh)"
+```
+
+Alternatively, you can do all the stuff yourself.
 
 - Make a backup of your current Neovim files:
 
